@@ -1,0 +1,49 @@
+.notesList{
+          display: grid;
+          grid-template-columns: repeat(auto-fit, 300px);
+          gap: 20px;
+}
+
+.notesList > *{
+          padding: 5%;
+          border-radius: 5px;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          gap: 15px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          min-height: 200px;
+}
+
+.notesList > * > div{
+          display: flex;
+          justify-content: space-between;
+}
+
+.notesList > * > div > button{
+          border: none;
+          height: fit-content;
+          width: fit-content;
+          padding: 2%;
+          background: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+          width: 5px;
+        }
+        
+        /* Track */
+        ::-webkit-scrollbar-track {
+          background: #f1f1f1;
+        }
+        
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: #444;
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background: #555;
+        }

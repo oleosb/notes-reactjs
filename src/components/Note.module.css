@@ -1,0 +1,8 @@
+.note{
+          background: #ffeb90;
+}
+
+.note p{
+          word-wrap: break-word;
+          white-space: pre-wrap;
+}
